@@ -17,7 +17,7 @@ const Navbar = () => {
             <div className="img">
               <img src={require("./imgs/Logo.png")} alt="" />
             </div>
-            <a href="#">Soumyasis</a>
+            <a href="https://new-port-venturesum1.vercel.app/">Soumyasis</a>
           </div>
           <div className="right flex items-center">
             <div
