@@ -1,6 +1,7 @@
 import "./about.css";
 import { NavLink } from "react-router-dom";
 
+
 const About = () => {
   return (
     <>
@@ -13,11 +14,16 @@ const About = () => {
           <p className="text-[#ABB2BF] my-6">
           He creates creative, technologically advanced responsive websites.
           </p>
-          <NavLink to="/contact">
-          <button className="text-white font-medium py-2 px-4 border duration-200 border-[#C778DD] hover:bg-[#C778DD33]">
-            Contact me!!
-          </button>
-          </NavLink>
+          <div className="flex items-center gap-4">
+            <NavLink to="/contact">
+              <button className="text-white font-medium py-2 px-4 border duration-200 border-[#C778DD] hover:bg-[#C778DD33]">
+                Contact me!!
+              </button>
+            </NavLink>
+            <a href="https://wa.me/9800425510" target="_blank" rel="noopener noreferrer">
+              <img src={require("./imgs/wp.webp")} alt="WhatsApp" className="w-8 h-8 bg-transparent" />
+            </a>
+          </div>
         </div>
         <div  data-aos="fade-left" data-aos-delay="400" className="mx-auto">
           <div className="">
